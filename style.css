@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    background-color:black;
+}
+@media (max-width: 768px) {
+    }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    background-color:#ffc400;
+    width: auto;
+    height: 133px;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo {
+    background-color: #ffc400;
+}
+
+.logo img {
+    mix-blend-mode: multiply;
+    width: 150px; 
+    height: 120px;
+    border-radius: 50%; 
+    object-fit:fill; 
+    overflow: hidden;
+}
+.navbar {
+    flex-direction: column;
+}
+
+.navbar ul {
+    display: flex;
+    background-color: #ffc400;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 670px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    background-color: #ffc400;
+    color: black;
+    font-family: "SUSE", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    width: 670px;
+    font-weight: 600;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline black;
+}
+
+.conatiner {
+    
+    padding: 10px;
+    width: auto;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.one {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heading {
+    font-size: xx-large;
+}
+
+.info {
+    font-size: large;
+}
+
+.two>img {
+    width: 500px;
+    height: 500px;
+
+    transition: 7s;
+}
+
+.two1 {
+    height: 480px;
+    width: 374px;
+    margin-top: 80px;
+}
+
+.salebanner {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.orderbanner {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.salebanner h2 {
+    color:#ffc400;
+    font-size: xxx-large;
+    border: 3px dotted #ffc400;
+    padding: 20px;
+    border-radius: 30px;
+    border-bottom-right-radius: 10px;
+    margin-left: 145px;
+}
+
+
+.orderbanner h2 {
+    color: #ffc400;
+    font-size: xxx-large;
+    border: 3px dotted #ffc400;
+    padding: 20px;
+    border-radius: 30px;
+    border-bottom-left-radius: 10px;
+    margin-right: 145px;
+}
+
+.sales {
+    border: 3px dotted #ffc400;
+    margin: auto;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 30px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sales {
+    overflow: auto;
+    /* Enables scrolling */
+
+    /* For WebKit-based browsers (Chrome, Safari) */
+    -webkit-overflow-scrolling: touch;
+}
+
+.sales::-webkit-scrollbar {
+    display: none;
+    /* Hides scrollbar in WebKit/Blink-based browsers */
+}
+
+/* For Firefox */
+.sales {
+    scrollbar-width: none;
+    /* Hides scrollbar */
+}
+
+/* For Internet Explorer and older Edge versions */
+.sales {
+    -ms-overflow-style: none;
+    /* Hides scrollbar */
+}
+
+ .box {
+    background-color:#ffc400;
+    margin: 0 10px;
+    flex: 0 0 auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.sales img {
+    width: 250px;
+    height: 230px;
+    margin: 0 10px;
+    flex: 0 0 auto;
+}
+
+.order {
+    border: 3px dotted #ffc400;
+    margin: auto;
+    width: 80vw;
+    height: 74vh;
+    border-radius: 30px;
+}
+
+.nav2 {
+    width: 76vw;
+    height: 10vh;
+    background-color: #ffc400;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.nav2 ul {
+    border-radius: 15px;
+    width: 76vw;
+    height: 10vh;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: "SUSE", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.nav2 ul li a:hover {
+    text-decoration: underline black;
+}
+
+.items {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 165px;
+    margin-top: 20px;
+}
+
+
+.items {
+    scrollbar-width: none;
+    /* Hides scrollbar */
+}
+
+.items1 {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -200%;
+    margin-top: 20px;
+
+
+}
+.items1 {
+    scrollbar-width: none;
+    /* Hides scrollbar */
+}
+
+.items2 {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -200%;
+    margin-top: 20px;
+}
+
+.items2 {
+    scrollbar-width: none;
+    /* Hides scrollbar */
+}
+
+.items3 {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -200%;
+    margin-top: 20px;
+}
+
+.items3 {
+    scrollbar-width: none;
+}
+
+.items4 {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -200%;
+    margin-top: 20px;
+}
+
+.items4 {
+    scrollbar-width: none;
+}
+
+
+.items5 {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -200%;
+    margin-top: 20px;
+}
+
+.items5 {
+    scrollbar-width: none;
+
+}
+
+.items6 {
+    width: 77vw;
+    height: 55.5vh;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -200%;
+    margin-top: 20px;
+}
+
+.items6 {
+    scrollbar-width: none;
+}
+
+.box1 {
+    width: 440px;
+    height: 170px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.box1:hover {
+    box-shadow: 3px 2px 10px 0px #cec7c7;
+}
+
+.box1 img {
+    width: 200px;
+    height: 139px;
+    border-radius: 15px;
+}
+
+.buy {
+    width: 188px;
+    height: 115px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uy-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 80px;
+    /* Adds padding to the button */
+    font-size: 16px;
+    /* Sets the font size */
+    font-weight: bold;
+    /* Makes the text bold */
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    border-radius: 5px;
+    /* Rounds the button corners */
+    transition: background-color 0.3s;
+}
+.message {
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and transform */
+    position: fixed; /* Fixed position to stay at the top of the viewport */
+    top: 10px; /* Position from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+    font-size: 50px; /* Font size */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    background-color: green; /* Background color for the message box */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    opacity: 0; /* Start hidden */
+    pointer-events: none; /* Prevent interaction with the message */
+    z-index: 1000; /* Ensure it appears above other elements */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+}
+/* Optional: Add a hover effect */
+.uy-button:hover {
+    background-color: greenyellow;
+    /* Darker green on hover */
+    
+}
+
+.buy h3 {
+    background-color: white;
+    color: black;
+}
+
+.buy p {
+    background-color: white;
+    color: black;
+    font-weight: 100;
+}
+
+.footer {
+    background-color:#ffc400;
+    width: auto;
+    height: 75vh;
+    border-radius: 15px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.rows,
+.rows1 {
+    height: 360px;
+    width: 300px;
+    padding-top: 60px;
+    background-color: #ffc400;
+    color: black;
+}
+
+.rows1 {
+    display: flex;
+    flex-direction: column;
+    background-color:#ffc400;
+    color: black;
+    width: 200px;
+}
+
+.rows a {
+    text-decoration: none;
+    color: black;
+    background-color: #ffc400;
+    color: black;
+}
+
+.rows ul li {
+    padding-top: 30px;
+    background-color:#ffc400 ;
+    color: black;
+}
+
+.rows1 p {
+    padding-top:5px;
+    background-color: #ffc400;
+    color: black;
+}
+
+.rows1 h4 {
+    padding-bottom: 16px;
+    background-color: #ffc400;
+    color: black;
+}
+
+.rows1 h3 {
+    padding-bottom: 16px;
+    background-color:#ffc400;
+    color: black;
+}
+
+.rows h4 {
+    color: black;
+    background-color:#ffc400;
+}
